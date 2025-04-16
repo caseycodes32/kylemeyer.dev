@@ -91,15 +91,16 @@ const PortfolioWebsite = () => {
                         <AvatarImage src={headshotImage} alt="Your Name" />
                         <AvatarFallback>YN</AvatarFallback> {/* Fallback for "Your Name" */}
                     </Avatar>
-                    <h1 className="text-4xl font-bold text-white">Your Name</h1>
+                    <h1 className="text-4xl font-bold text-white">Kyle Meyer</h1>
                     <p className="text-lg text-gray-300">
-                        Recent Graduate of University Name
+                        Recent Graduate of University of Nevada, Las Vegas
                     </p>
                     <p className="text-gray-400 max-w-2xl mx-auto">
-                        A highly motivated and creative recent graduate with a passion for
-                        [Your Field, e.g., Software Engineering] and a strong foundation in
-                        [Mention Key Skills]. Eager to contribute to innovative projects and
-                        continue learning in a dynamic environment.
+                        Hey, I'm Kyle. I recently graduated UNLV with a BS Computer Science
+                        and a Mathematics minor. I'm an aspiring software engineer with
+                        experience in C/C++, C#, Java, and Python. I'm passionate about
+                        writing code and anything automotive. Looking to contribute
+                        my technical skills to something exciting!
                     </p>
                     <div className="flex justify-center gap-6">
                         <Button
@@ -107,7 +108,7 @@ const PortfolioWebsite = () => {
                             variant="outline"
                             className="text-blue-400 hover:text-blue-300 hover:bg-blue-500/20 border-blue-500/30"
                         >
-                            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/caseycodes32" target="_blank" rel="noopener noreferrer">
                                 <Github className="mr-2 h-4 w-4" /> GitHub
                             </a>
                         </Button>
@@ -116,7 +117,7 @@ const PortfolioWebsite = () => {
                             variant="outline"
                             className="text-green-400 hover:text-green-300 hover:bg-green-500/20 border-green-500/30"
                         >
-                            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.linkedin.com/in/computer-kyle/" target="_blank" rel="noopener noreferrer">
                                 <Linkedin className="mr-2 h-4 w-4" /> LinkedIn
                             </a>
                         </Button>
@@ -125,7 +126,7 @@ const PortfolioWebsite = () => {
                             variant="outline"
                             className="text-pink-400 hover:text-pink-300 hover:bg-pink-500/20 border-pink-500/30"
                         >
-                            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.instagram.com/kylebuilds32" target="_blank" rel="noopener noreferrer">
                                 <Instagram className="mr-2 h-4 w-4" /> Instagram
                             </a>
                         </Button>
@@ -141,30 +142,30 @@ const PortfolioWebsite = () => {
                         animate="visible"
                     >
                         <ProjectCard
-                            title="Project 1: Web Application"
-                            description="A full-stack web application built with React and Node.js."
-                            technologies={['React', 'Node.js', 'Express', 'PostgreSQL', 'Tailwind CSS']}
+                            title="Project 1: DiskBlocks"
+                            description="Placeholder line of text. Normally this would be a brief description of the project"
+                            technologies={['C++', 'xxx', 'xxx', 'xxx', 'xxx']}
                             link="#" // Replace with actual link
                             image="https://placehold.co/600x400/00FFFF/FFF"
                         />
                         <ProjectCard
-                            title="Project 2: Mobile App"
-                            description="A mobile application developed using React Native."
-                            technologies={['React Native', 'JavaScript', 'Firebase']}
+                            title="Project 2: Scary Game #1"
+                            description="Placeholder line of text. Normally this would be a brief description of the project"
+                            technologies={['xxx', 'xxx', 'xxx']}
                             link="#" // Replace with actual link
                             image="https://placehold.co/600x400/EEE/31343C"
                         />
                         <ProjectCard
-                            title="Project 3: Data Analysis"
-                            description="A data analysis project using Python and Pandas."
-                            technologies={['Python', 'Pandas', 'Matplotlib', 'Jupyter Notebook']}
+                            title="Project 3: PicHide"
+                            description="Placeholder line of text. Normally this would be a brief description of the project"
+                            technologies={['xxx', 'xxx', 'xxx', 'xxx xxx']}
                             link="#"
                             image="https://placehold.co/600x400/800080/FFF"
                         />
                         <ProjectCard
-                            title="Project 4: Machine Learning"
-                            description="A machine learning project using Python and Scikit-learn."
-                            technologies={['Python', 'Scikit-learn', 'TensorFlow', 'Jupyter Notebook']}
+                            title="Project 4: Placeholder"
+                            description="Placeholder line of text. Normally this would be a brief description of the project"
+                            technologies={['xxx', 'xxx', 'xxx', 'xxx']}
                             link="#"
                             image="https://placehold.co/600x400/008000/FFF"
                         />
@@ -180,32 +181,25 @@ const PortfolioWebsite = () => {
                         animate="visible"
                     >
                         <ProjectCard
-                            title="Project A: Engine Analysis"
-                            description="Analysis of engine performance using simulation software."
-                            technologies={['MATLAB', 'Simulink', 'CAD']}
+                            title="Project A: Placeholder"
+                            description="Placeholder line of text. Normally this would be a brief description of the project"
+                            technologies={['xxx', 'xxx', 'xxx']}
                             link="#" // Replace with actual link
                             image="https://placehold.co/600x400/FF0000/FFF"
                         />
                         <ProjectCard
-                            title="Project B: Vehicle Dynamics"
-                            description="Simulation of vehicle dynamics and handling."
-                            technologies={['CarSim', 'SolidWorks', 'Adams']}
+                            title="Project B: Placeholder"
+                            description="Placeholder line of text. Normally this would be a brief description of the project"
+                            technologies={['xxx', 'xxx', 'xxx']}
                             link="#" // Replace with actual link
                             image="https://placehold.co/600x400/0000FF/FFF"
                         />
                         <ProjectCard
-                            title="Project C: Autonomous Navigation"
-                            description="Development of algorithms for autonomous vehicle navigation."
-                            technologies={['ROS', 'Python', 'LiDAR', 'SLAM']}
+                            title="Project C: Placeholder"
+                            description="Placeholder line of text. Normally this would be a brief description of the project"
+                            technologies={['xxx', 'xxx', 'xxx', 'xxx']}
                             link="#" // Replace with actual link
                             image="https://placehold.co/600x400/FFFF00/000"
-                        />
-                        <ProjectCard
-                            title="Project D: Electric Vehicle Design"
-                            description="Design and analysis of an electric vehicle drivetrain."
-                            technologies={['ANSYS', 'MATLAB', 'Battery Management Systems']}
-                            link="#" // Replace with actual link
-                            image="https://placehold.co/600x400/808080/FFF"
                         />
                     </motion.div>
                 </section>
