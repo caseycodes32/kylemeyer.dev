@@ -36,7 +36,7 @@ const ProjectCard = ({ title, description, technologies, link, image }: { title:
         <motion.div variants={itemVariants}>
             <Card className="hover:shadow-lg transition-shadow border-gray-800 bg-gray-950/90 backdrop-blur-md">
                 <CardHeader>
-                    <CardTitle className="text-lg font-semibold text-white">{title}</CardTitle>
+                    <CardTitle className="text-2xl font-semibold text-white">{title}</CardTitle>
                     <CardDescription className="text-gray-400">{description}</CardDescription>
                 </CardHeader>
                 {image && (
