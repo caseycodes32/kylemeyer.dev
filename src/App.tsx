@@ -171,41 +171,6 @@ const PortfolioWebsite = () => {
                         />
                     </motion.div>
                 </section>
-
-/*
-                <section>
-                    <h2 className="text-3xl font-semibold text-white mb-8 text-center">Automotive Projects</h2>
-                    <motion.div
-                        className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full" // Added w-full
-                        variants={containerVariants}
-                        initial="hidden"
-                        animate="visible"
-                    >
-                        <ProjectCard
-                            title="Project A: Placeholder"
-                            description="Placeholder line of text. Normally this would be a brief description of the project"
-                            technologies={['xxx', 'xxx', 'xxx']}
-                            link="#" // Replace with actual link
-                            image="https://placehold.co/600x400/FF0000/FFF"
-                        />
-                        <ProjectCard
-                            title="Project B: Placeholder"
-                            description="Placeholder line of text. Normally this would be a brief description of the project"
-                            technologies={['xxx', 'xxx', 'xxx']}
-                            link="#" // Replace with actual link
-                            image="https://placehold.co/600x400/0000FF/FFF"
-                        />
-                        <ProjectCard
-                            title="Project C: Placeholder"
-                            description="Placeholder line of text. Normally this would be a brief description of the project"
-                            technologies={['xxx', 'xxx', 'xxx', 'xxx']}
-                            link="#" // Replace with actual link
-                            image="https://placehold.co/600x400/FFFF00/000"
-                        />
-                    </motion.div>
-                </section>
-*/
-                
             </div>
         </div>
     );
