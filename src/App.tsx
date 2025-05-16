@@ -64,7 +64,7 @@ const ProjectCard = ({ title, description, technologies, link, image }: { title:
                     <Button
                         asChild
                         variant="outline"
-                        className="text-blue-400 hover:text-blue-300 hover:bg-blue-500/20 border-blue-500/30"
+                        className="bg-gray-800 hover:bg-gray-700 text-gray-200 border-gray-700"
                     >
                         <a href={link} target="_blank" rel="noopener noreferrer">
                             View Project <ArrowRight className="ml-2 h-4 w-4" />
@@ -106,7 +106,7 @@ const PortfolioWebsite = () => {
                         <Button
                             asChild
                             variant="outline"
-                            className="text-blue-400 hover:text-blue-300 hover:bg-blue-500/20 border-blue-500/30"
+                            className="text-blue-400 hover:text-blue-300 bg-blue-500/20 hover:bg-blue-300/20 border-blue-500/30"
                         >
                             <a href="https://github.com/computer-kyle" target="_blank" rel="noopener noreferrer">
                                 <Github className="mr-2 h-4 w-4" /> GitHub
@@ -115,7 +115,7 @@ const PortfolioWebsite = () => {
                         <Button
                             asChild
                             variant="outline"
-                            className="text-green-400 hover:text-green-300 hover:bg-green-500/20 border-green-500/30"
+                            className="text-green-400 hover:text-green-300 bg-green-500/20 hover:bg-green-300/20 border-green-500/30"
                         >
                             <a href="https://www.linkedin.com/in/computer-kyle/" target="_blank" rel="noopener noreferrer">
                                 <Linkedin className="mr-2 h-4 w-4" /> LinkedIn
@@ -124,7 +124,7 @@ const PortfolioWebsite = () => {
                         <Button
                             asChild
                             variant="outline"
-                            className="text-pink-400 hover:text-pink-300 hover:bg-pink-500/20 border-pink-500/30"
+                            className="text-pink-400 hover:text-pink-300 bg-pink-500/20 hover:bg-pink-300/20 border-pink-500/30"
                         >
                             <a href="https://www.instagram.com/kylebuilds32" target="_blank" rel="noopener noreferrer">
                                 <Instagram className="mr-2 h-4 w-4" /> Instagram
