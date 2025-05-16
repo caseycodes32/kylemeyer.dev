@@ -1,10 +1,10 @@
-import React from 'react';
+
 import { Button } from '@/components/ui/button'; // Assumed path, adjust if needed
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'; // Assumed path
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'; // Assumed path
 import { Badge } from '@/components/ui/badge'; // Assumed path
 import { Github, Linkedin, Instagram, ArrowRight } from 'lucide-react'; // Assumed path
-import { cn } from '@/lib/utils';  // Assumed path
+
 import { motion } from 'framer-motion'; // Assumed path
 
 // Placeholder image - replace with actual image URL
@@ -97,7 +97,7 @@ const PortfolioWebsite = () => {
                     </p>
                     <p className="text-gray-400 max-w-2xl mx-auto">
                         Hey, I'm Kyle. I recently graduated UNLV with a BS Computer Science
-                        and a Mathematics minor. I'm an aspiring software engineer with
+                        and a Mathematics minor. I'm a passionate developer with
                         experience in C/C++, C#, Java, and Python. I'm passionate about
                         writing code and anything automotive. Looking to contribute
                         my technical skills to something exciting!
@@ -108,7 +108,7 @@ const PortfolioWebsite = () => {
                             variant="outline"
                             className="text-blue-400 hover:text-blue-300 hover:bg-blue-500/20 border-blue-500/30"
                         >
-                            <a href="https://github.com/caseycodes32" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/computer-kyle" target="_blank" rel="noopener noreferrer">
                                 <Github className="mr-2 h-4 w-4" /> GitHub
                             </a>
                         </Button>
@@ -134,7 +134,7 @@ const PortfolioWebsite = () => {
                 </motion.div>
 
                 <section className="mb-12">
-                    <h2 className="text-3xl font-semibold text-white mb-8 text-center">Computer Science Projects</h2>
+                    <h2 className="text-3xl font-semibold text-white mb-8 text-center">Software Development Projects</h2>
                     <motion.div
                         className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full" // Added w-full
                         variants={containerVariants}
@@ -142,36 +142,37 @@ const PortfolioWebsite = () => {
                         animate="visible"
                     >
                         <ProjectCard
-                            title="Project 1: DiskBlocks"
-                            description="Placeholder line of text. Normally this would be a brief description of the project"
-                            technologies={['C++', 'xxx', 'xxx', 'xxx', 'xxx']}
-                            link="#" // Replace with actual link
-                            image="https://placehold.co/600x400/00FFFF/FFF"
+                            title="Project 1: crypng"
+                            description="Steganography program for encoding and decoding hidden messages in PNG images that uses a unique approach for improved secrecy"
+                            technologies={['C++', 'stb_image', 'ImGui', 'OpenGL', 'tiny-AES-c']}
+                            link="https://github.com/computer-kyle/crypng"
+                            image="https://raw.githubusercontent.com/computer-kyle/kylemeyer.dev/refs/heads/main/src/assets/crypng.png"
                         />
                         <ProjectCard
-                            title="Project 2: Scary Game #1"
-                            description="Placeholder line of text. Normally this would be a brief description of the project"
-                            technologies={['xxx', 'xxx', 'xxx']}
-                            link="#" // Replace with actual link
-                            image="https://placehold.co/600x400/EEE/31343C"
+                            title="Project 2: DiskBlocks"
+                            description="GUI application for Windows that analyzes disk space usage, and provides a visual representation of file and directory sizes"
+                            technologies={['C++', 'Windows API', 'ImGui']}
+                            link="https://github.com/computer-kyle/DiskBlocks"
+                            image="https://raw.githubusercontent.com/computer-kyle/kylemeyer.dev/refs/heads/main/src/assets/DiskBlocks.png"
                         />
                         <ProjectCard
-                            title="Project 3: PicHide"
-                            description="Placeholder line of text. Normally this would be a brief description of the project"
-                            technologies={['xxx', 'xxx', 'xxx', 'xxx xxx']}
-                            link="#"
-                            image="https://placehold.co/600x400/800080/FFF"
+                            title="Project 3: Scary Game #1"
+                            description="3D horror game featuring a dynamic antagonist, minigames, and iteractable objects"
+                            technologies={['C#', 'Unity', 'NuGet', 'Github Actions']}
+                            link="https://github.com/UNLV-CS472-672/2024-F-GROUP2-ScaryGame-1"
+                            image="https://raw.githubusercontent.com/computer-kyle/kylemeyer.dev/refs/heads/main/src/assets/SG1.png"
                         />
                         <ProjectCard
-                            title="Project 4: Placeholder"
-                            description="Placeholder line of text. Normally this would be a brief description of the project"
-                            technologies={['xxx', 'xxx', 'xxx', 'xxx']}
-                            link="#"
-                            image="https://placehold.co/600x400/008000/FFF"
+                            title="Project 4: VoxelByte"
+                            description="In-development 3D voxel game engine with a focus on dynamic meshing and exceptional performance"
+                            technologies={['C++', 'OpenGL', 'GLFW', 'glm']}
+                            link="https://github.com/Xeleonn/VoxelByte"
+                            image="https://raw.githubusercontent.com/computer-kyle/kylemeyer.dev/refs/heads/main/src/assets/VoxelByte.png"
                         />
                     </motion.div>
                 </section>
 
+/*
                 <section>
                     <h2 className="text-3xl font-semibold text-white mb-8 text-center">Automotive Projects</h2>
                     <motion.div
@@ -203,6 +204,8 @@ const PortfolioWebsite = () => {
                         />
                     </motion.div>
                 </section>
+*/
+                
             </div>
         </div>
     );
