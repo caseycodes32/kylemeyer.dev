@@ -8,7 +8,7 @@ import { Github, Linkedin, Instagram, ArrowRight } from 'lucide-react'; // Assum
 import { motion } from 'framer-motion'; // Assumed path
 
 // Placeholder image - replace with actual image URL
-const headshotImage = "https://placehold.co/400x400/EEE/31343C";
+const headshotImage = "https://raw.githubusercontent.com/computer-kyle/computerkyle/refs/heads/main/src/assets/website-headshot.png";
 
 // Animation variants
 const containerVariants = {
@@ -93,14 +93,14 @@ const PortfolioWebsite = () => {
                     </Avatar>
                     <h1 className="text-4xl font-bold text-white">Kyle Meyer</h1>
                     <p className="text-lg text-gray-300">
-                        Recent Graduate of University of Nevada, Las Vegas
+                        Recent Graduate and Software Engineer
                     </p>
                     <p className="text-gray-400 max-w-2xl mx-auto">
-                        Hey, I'm Kyle. I recently graduated UNLV with a BS Computer Science
-                        and a Mathematics minor. I'm a passionate developer with
-                        experience in C/C++, C#, Java, and Python. I'm passionate about
-                        writing code and anything automotive. Looking to contribute
-                        my technical skills to something exciting!
+                        Hey, I'm Kyle. I recently graduated UNLV with a Bachelor of Science <br/>
+                        in Computer Science and a Minor in Mathematical Sciences. I'm a <br/>
+                        passionate developer with experience in C, C++, C#, and Python. <br/>
+                        I'm excited about writing code and anything automotive. I'm looking <br/>
+                        to contribute my technical skills to something great!
                     </p>
                     <div className="flex justify-center gap-6">
                         <Button
