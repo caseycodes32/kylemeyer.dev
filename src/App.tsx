@@ -157,7 +157,7 @@ const PortfolioWebsite = () => {
                         />
                         <ProjectCard
                             title="Project 3: Scary Game #1"
-                            description="3D horror game featuring a dynamic antagonist, minigames, and iteractable objects"
+                            description="3D horror game featuring a dynamic antagonist, minigames, and interactable objects"
                             technologies={['C#', 'Unity', 'NuGet', 'Github Actions']}
                             link="https://github.com/UNLV-CS472-672/2024-F-GROUP2-ScaryGame-1"
                             image="https://raw.githubusercontent.com/computer-kyle/kylemeyer.dev/refs/heads/main/src/assets/SG1.png"
